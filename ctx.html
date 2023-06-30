@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+#can{
+    background-color: #b3b3b3;
+}
+
+</style>
+<body>
+
+<canvas id="can" width="500" height="500"></canvas>
+
+
+
+
+<script>
+    let convas  = document.getElementById("can");
+    const ctx = convas.getContext('2d');
+
+    // let sum = 10;
+    // setInterval(()=>{
+    //     ctx.clearRect(0, 0 ,convas.width, convas.height);
+    //     ctx.fillRect(0 + sum, 50, 25, 25);
+    //     sum += 10;
+    //
+    //     if(sum > convas.width){
+    //         sum = 0;
+    //     }
+    // },250)
+</script>
+</body>
+</html>
